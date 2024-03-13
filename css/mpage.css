@@ -1,0 +1,192 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#section-1{
+height: 600px;
+}
+
+#section-3{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for section 1 (blue) */
+.blue-section {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.section-content {
+    
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #007BFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Styling for section 2 (white) */
+.white-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+/* Hero Section Styles */
+.hero {
+    /* background-image: url("home1.png"); */
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: left;
+
+    padding: 80px 0;
+}
+
+
+.hero h1 {
+  font-size: 68px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.hero p {
+  font-size: 29px;
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+#signup-btn {
+  background-color: #1c64fd;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#signup-btn:hover {
+    background-color: #0077ff;
+}
+@media screen and (max-width: 600px) {
+  #signup-btn{
+    padding: 5px 10px;
+  }
+  
+}
+section h2 {
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+
+section p {
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  section h2{
+      font-size: 40px;
+  }}
+
+/* Section Styles */
+section {
+    padding: 80px 0;
+    color: #000000;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+
+
+.sign-up-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007BFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sign-up-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+} /* Animations */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+/* Responsive styles */
+@media (max-width: 768px) {
+    .section-content {
+        padding: 20px;
+    }
+}
+
+  

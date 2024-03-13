@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.home-button {
+    display: flex;
+}
+
+.home-button i {
+    font-size: 50px;
+    border-radius: 50%;
+    color: #f5f5f5;
+    padding: 5px;
+}
+
+.upload-container {
+    text-align: center;
+    background-color: #fff;
+    border: 1px dashed #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    min-height: 300px;
+    width: 70%; /* Adjusted width for smaller screens */
+    margin: 5% auto; /* Center the container */
+}
+
+.upload-area {
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-height: 300px;
+    width: 100%; /* Full width on smaller screens */
+}
+
+.upload-area p {
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    color: #888;
+}
+
+.buttongrp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+#account-box {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+}
+
+/* Style the account box */
+#account-box a {
+    display: block;
+    padding: 10px 15px;
+    text-align: left;
+    color: #333;
+    text-decoration: none;
+}
+
+#account-box a:hover {
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+    .upload-container {
+        width: 100%;
+    }
+
+    .upload-area p {
+        font-size: 16px;
+    }
+}
